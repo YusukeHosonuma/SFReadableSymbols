@@ -26,6 +26,14 @@ High **searchable**.
 - tvOS 15+
 - WatchOS 8+
 
+## Links
+
+- This library is used in the following:
+  - [Swift-Evolution-Browser](https://github.com/YusukeHosonuma/Swift-Evolution-Browser) 
+  - [E2DC](https://github.com/YusukeHosonuma/E2DC)
+- Document (Japanese):
+  - [Effective SwiftUI 候補（仮説） - SFSafeSymbols が本当に必要かよく検討する。](https://github.com/YusukeHosonuma/Effective-SwiftUI/discussions/12)
+
 ## Author
 
 Yusuke Hosonuma / [@tobi462](https://twitter.com/tobi462)

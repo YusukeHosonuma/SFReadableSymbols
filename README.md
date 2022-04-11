@@ -1,8 +1,12 @@
 # SFReadableSymbols
 
-High-readable code with SFSymbols.
+High **readable**.
 
 <img src="./Screenshot/screenshot.png" />
+
+High **searchable**.
+
+<img src="https://user-images.githubusercontent.com/2990285/162715214-6c74cbe4-669e-4cd3-bd85-370122709d77.jpeg" width="600" />
 
 ## Install
 

@@ -18,13 +18,9 @@ High **searchable**.
 .package(url: "https://github.com/YusukeHosonuma/SFReadableSymbols.git", .upToNextMajor(from: "1.0.0"))
 ```
 
-## Requirements
+## Support
 
-- SFSymbols **3.2 (67)** only. (At least now)
-- iOS 15+
-- macOS 12+
-- tvOS 15+
-- WatchOS 8+
+- SFSymbols **3.3 (67.3)**.
 
 ## Links
 

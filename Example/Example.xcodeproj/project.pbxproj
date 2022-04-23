@@ -21,6 +21,8 @@
 		70BA1FF827EEB53C000C2567 /* SFReadableSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 70BA1FF727EEB53C000C2567 /* SFReadableSymbols */; };
 		70BA1FFB27EEB709000C2567 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 70BA1FFA27EEB709000C2567 /* SFSafeSymbols */; };
 		70BA1FFF27EEB9B5000C2567 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = 70BA1FFE27EEB9B5000C2567 /* SFSafeSymbols */; };
+		70F08DA228140DDD0053D8E5 /* SymbolsView_3_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F08DA128140DDD0053D8E5 /* SymbolsView_3_3.swift */; };
+		70F08DA328140DDD0053D8E5 /* SymbolsView_3_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F08DA128140DDD0053D8E5 /* SymbolsView_3_3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,7 @@
 		70BA1FDA27EEB492000C2567 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		70BA1FDC27EEB492000C2567 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		70BA1FF327EEB4EE000C2567 /* SFReadableSymbols */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SFReadableSymbols; path = ..; sourceTree = "<group>"; };
+		70F08DA128140DDD0053D8E5 /* SymbolsView_3_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsView_3_3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,7 @@
 		70BA1FB527EEB490000C2567 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				70F08DA028140DC20053D8E5 /* Example */,
 				70BA1FB627EEB490000C2567 /* ExampleApp.swift */,
 				70BA1FB727EEB490000C2567 /* ContentView.swift */,
 				70BA1FB827EEB492000C2567 /* Assets.xcassets */,
@@ -178,6 +182,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70F08DA028140DC20053D8E5 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				70F08DA128140DDD0053D8E5 /* SymbolsView_3_3.swift */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70BA1FE027EEB492000C2567 /* ContentView.swift in Sources */,
+				70F08DA228140DDD0053D8E5 /* SymbolsView_3_3.swift in Sources */,
 				70BA1FDE27EEB492000C2567 /* ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70BA1FE127EEB492000C2567 /* ContentView.swift in Sources */,
+				70F08DA328140DDD0053D8E5 /* SymbolsView_3_3.swift in Sources */,
 				70BA1FDF27EEB492000C2567 /* ExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,7 +536,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,7 +566,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

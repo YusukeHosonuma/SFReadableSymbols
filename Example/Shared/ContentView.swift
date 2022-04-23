@@ -20,9 +20,11 @@ struct ContentView: View {
                 // - ✅ Copy and paste from SF Symbols app. (Cmd + C)
                 // - 🚫 Can't display symbols in GitHub or other editors.
                 //
-                Section("SFReadableSymbols") {
+                Section {
                     Label("Account", symbol: "􀉯")
                     Image(symbol: "􀫊")
+                } header: {
+                    Text("SFReadableSymbols")
                 }
                 
                 //
@@ -32,9 +34,11 @@ struct ContentView: View {
                 // - 🚫 Not compile-time safe.
                 // - 🚫 Not readable.
                 //
-                Section("Standard API") {
+                Section {
                     Label("Account", systemImage: "person.crop.circle.badge.plus")
                     Image(systemName: "swift")
+                } header: {
+                    Text("Standard API")
                 }
                 
                 //
@@ -44,9 +48,11 @@ struct ContentView: View {
                 // - 🚫 Need type your own. (Possible mistake)
                 // - 🚫 Even more difficult to read.
                 //
-                Section("SFSafeSymbols") {
+                Section {
                     Label("Account", systemSymbol: .personCropCircleBadgePlus)
                     Image(systemSymbol: .swift)
+                } header: {
+                    Text("SFSafeSymbols")
                 }
 
                 NavigationLink {

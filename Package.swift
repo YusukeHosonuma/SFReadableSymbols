@@ -6,10 +6,10 @@ import PackageDescription
 let package = Package(
     name: "SFReadableSymbols",
     platforms: [
-        .iOS(.v15),
-        .macOS(.v12),
-        .tvOS(.v15),
-        .watchOS(.v8),
+        .iOS(.v13),
+        .macOS(.v11),
+        .tvOS(.v13),
+        .watchOS(.v6),
     ],
     products: [
         .library(name: "SFReadableSymbols", targets: ["SFReadableSymbols"]),

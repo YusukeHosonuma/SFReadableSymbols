@@ -1,4 +1,6 @@
-// SF Symbols version 3.2 (67)
+//
+// SF Symbols version 3.3 (67.3)
+//
 let symbolsToName: [Character: String] = [
     "􀈂": "square.and.arrow.up",
     "􀈃": "square.and.arrow.up.fill",
@@ -3325,5 +3327,3 @@ let symbolsToName: [Character: String] = [
     "􁏺": "person.badge.key",
     "􁎨": "person.badge.key.fill",
 ]
-
-

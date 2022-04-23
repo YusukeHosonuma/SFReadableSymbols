@@ -3309,6 +3309,21 @@ let symbolsToName: [Character: String] = [
     "􀛡": "50.square",
     "􀛢": "50.square.fill",
     "􀣺": "applelogo",
+    //
+    // 3.3 symbols
+    //
+    // - iOS 15.4
+    // - macOS 12.3
+    // - tvOS 15.4
+    // - watchOS 8.5
+    //
+    "􁂂": "camera.macro",
+    "􁂃": "camera.macro.circle",
+    "􁂄": "camera.macro.circle.fill",
+    "􁑢": "dots.and.line.vertical.and.cursorarrow.rectangle",
+    "􁎕": "key.viewfinder",
+    "􁏺": "person.badge.key",
+    "􁎨": "person.badge.key.fill",
 ]
 
 
